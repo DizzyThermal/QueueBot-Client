@@ -9,8 +9,7 @@
 			<center><img src="images/jim.png" /></center><br />
 			<center><font size="4px" face="Arial">The QueueBot Server is either <b>not running</b><br />or both of the Queues are <b>Empty</b>!</font></center>
 		<?php
-			echo '<meta http-equiv="refresh" content="'.$IndexRefreshTime.'">';
-			die();
+		die();
 	} 
 ?>
 

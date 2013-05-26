@@ -46,7 +46,7 @@
 		file_put_contents($PriorityQueueFile, $direction."\\\\".$_GET['songID']);
 	}
 
-	sleep($ReadDelay);
+	sleep($ReadDelay + 1);
 
 	echo '<script language="JavaScript">';
 	echo '	opener.location.reload();';
